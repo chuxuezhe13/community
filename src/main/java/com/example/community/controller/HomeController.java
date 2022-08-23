@@ -44,6 +44,7 @@ public class HomeController {
                 discussPosts.add(map);
             }
         }
+        /*远程仓库*/
         model.addAttribute("discussPosts",discussPosts);
         return "/index";
     }
